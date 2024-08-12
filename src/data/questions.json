@@ -1,0 +1,877 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which company did Valve cooperate with in the creation of the Vive?",
+      "correct_answer": "HTC",
+      "incorrect_answers": ["Oculus", "Google", "Razer"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "correct_answer": "Demolition",
+      "incorrect_answers": [
+        "The Dream Team",
+        "The Bushwhackers",
+        "The British Bulldogs"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+      "correct_answer": "Key",
+      "incorrect_answers": ["Sword", "Pen", "Cellphone"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "correct_answer": "Cabbage Patch Kids",
+      "incorrect_answers": ["Transformers", "Care Bears", "Rubik's Cube"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does a funambulist walk on?",
+      "correct_answer": "A Tight Rope",
+      "incorrect_answers": ["Broken Glass", "Balls", "The Moon"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How would one say goodbye in Spanish?",
+      "correct_answer": "Adiós",
+      "incorrect_answers": [" Hola", "Au Revoir", "Salir"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which sign of the zodiac is represented by the Crab?",
+      "correct_answer": "Cancer",
+      "incorrect_answers": ["Libra", "Virgo", "Sagittarius"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "On a dartboard, what number is directly opposite No. 1?",
+      "correct_answer": "19",
+      "incorrect_answers": ["20", "12", "15"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
+      "correct_answer": "Subscriber",
+      "incorrect_answers": ["Single", "Secure", "Solid"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What alcoholic drink is made from molasses?",
+      "correct_answer": "Rum",
+      "incorrect_answers": ["Gin", "Vodka", "Whisky"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which American president appears on a one dollar bill?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "Benjamin Franklin"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What geometric shape is generally used for stop signs?",
+      "correct_answer": "Octagon",
+      "incorrect_answers": ["Hexagon", "Circle", "Triangle"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is 'dabbing'?",
+      "correct_answer": "A dance",
+      "incorrect_answers": ["A medical procedure", "A sport", "A language"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the Jewish New Year?",
+      "correct_answer": "Rosh Hashanah",
+      "incorrect_answers": ["Elul", "New Year", "Succoss"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many colors are there in a rainbow?",
+      "correct_answer": "7",
+      "incorrect_answers": ["8", "9", "10"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the nickname of the US state of California?",
+      "correct_answer": "Golden State",
+      "incorrect_answers": ["Sunshine State", "Bay State", "Treasure State"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is on display in the Madame Tussaud's museum in London?",
+      "correct_answer": "Wax sculptures",
+      "incorrect_answers": [
+        "Designer clothing",
+        "Unreleased film reels",
+        "Vintage cars"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+      "correct_answer": "Spruce Goose",
+      "incorrect_answers": ["Noah's Ark", "Fat Man", "Trojan Horse"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these colours is NOT featured in the logo for Google?",
+      "correct_answer": "Pink",
+      "incorrect_answers": ["Yellow", "Blue", "Green"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the French word for 'hat'?",
+      "correct_answer": "Chapeau",
+      "incorrect_answers": ["Bonnet", "Écharpe", " Casque"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Five dollars is worth how many nickles?",
+      "correct_answer": "100",
+      "incorrect_answers": ["50", "25", "69"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is depicted on the US hundred dollar bill?",
+      "correct_answer": "Benjamin Franklin",
+      "incorrect_answers": [
+        "George Washington",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of these is not a typical European sword design?",
+      "correct_answer": "Scimitar",
+      "incorrect_answers": ["Falchion", "Ulfberht", "Flamberge"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...'",
+      "correct_answer": "Truth",
+      "incorrect_answers": ["Answer", "Cause", "Source"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The New York Times slogan is, 'All the News That's Fit to...'",
+      "correct_answer": "Print",
+      "incorrect_answers": ["Digest", "Look", "Read"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What do the letters of the fast food chain KFC stand for?",
+      "correct_answer": "Kentucky Fried Chicken",
+      "incorrect_answers": [
+        "Kentucky Fresh Cheese",
+        "Kibbled Freaky Cow",
+        "Kiwi Food Cut"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first ever London Underground line to be built?",
+      "correct_answer": "Metropolitan Line",
+      "incorrect_answers": ["Circle Line", "Bakerloo Line", "Victoria Line"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What machine element is located in the center of fidget spinners?",
+      "correct_answer": "Bearings",
+      "incorrect_answers": ["Axles", "Gears", "Belts"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following presidents is not on Mount Rushmore?",
+      "correct_answer": "John F. Kennedy",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What company developed the vocaloid Hatsune Miku?",
+      "correct_answer": "Crypton Future Media",
+      "incorrect_answers": ["Sega", "Sony", "Yamaha Corporation"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country, not including Japan, has the most people of japanese decent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["China", "South Korea", "United States of America"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which fast food chain can you order a Jamocha Shake?",
+      "correct_answer": "Arby's",
+      "incorrect_answers": ["McDonald's", "Burger King", "Wendy's"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is the IATA code for Manchester Airport?",
+      "correct_answer": "MAN",
+      "incorrect_answers": ["EGLL", "LHR", "EGCC"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the Zodiac symbol for Gemini?",
+      "correct_answer": "Twins",
+      "incorrect_answers": ["Fish", "Scales", "Maiden"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What nuts are used in the production of marzipan?",
+      "correct_answer": "Almonds",
+      "incorrect_answers": ["Peanuts", "Walnuts", "Pistachios"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+      "correct_answer": "Thomas Jefferson",
+      "incorrect_answers": [
+        "Martin Van Buren",
+        "Ulysses Grant",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Cynophobia the fear of?",
+      "correct_answer": "Dogs",
+      "incorrect_answers": ["Birds", "Flying", "Germs"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "According to the nursery rhyme, what fruit did Little Jack Horner pull out of his Christmas pie?",
+      "correct_answer": "Plum",
+      "incorrect_answers": ["Apple", "Peach", "Pear"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Flag of the European Union has how many stars on it?",
+      "correct_answer": "12",
+      "incorrect_answers": ["10", "14", "16"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many furlongs are there in a mile?",
+      "correct_answer": "Eight",
+      "incorrect_answers": ["Two", "Four", "Six"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When someone is cowardly, they are said to have what color belly?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": ["Green", "Red", "Blue"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the closest planet to our solar system's sun?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": ["Mars", "Jupiter", "Earth"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of NASA's most famous space telescope?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": ["Big Eye", "Death Star", "Millenium Falcon"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Canadian $1 coin is colloquially known as a what?",
+      "correct_answer": "Loonie",
+      "incorrect_answers": ["Boolie", "Foolie", "Moodie"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is not the host of a program on NPR?",
+      "correct_answer": "Ben Shapiro",
+      "incorrect_answers": ["Terry Gross", "Ira Glass", "Peter Sagal"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country has the union jack in its flag?",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": ["South Africa", "Canada", "Hong Kong"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When was the Playstation 3 released?",
+      "correct_answer": "November 11, 2006",
+      "incorrect_answers": [
+        "January 8, 2007",
+        "December 25, 2007",
+        "July 16, 2006"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
+      "correct_answer": "Swiss Air",
+      "incorrect_answers": ["Air France", "British Airways", "TWA"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?",
+      "correct_answer": "Helicopter",
+      "incorrect_answers": ["Stealth Blimp", "Jet", "Space Capsule"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+      "correct_answer": "Silver",
+      "incorrect_answers": ["Gold", "Juno", "Sword"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "King Henry VIII was the second monarch of which European royal house?",
+      "correct_answer": "Tudor",
+      "incorrect_answers": ["York", "Stuart", "Lancaster"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was William Frederick Cody better known as?",
+      "correct_answer": "Buffalo Bill",
+      "incorrect_answers": ["Billy the Kid", "Wild Bill Hickok", "Pawnee Bill"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which German field marshal was known as the `Desert Fox`?",
+      "correct_answer": "Erwin Rommel",
+      "incorrect_answers": [
+        "Ernst Busch",
+        "Wolfram Freiherr von Richthofen",
+        "Wilhelm List"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who discovered Penicillin?",
+      "correct_answer": "Alexander Flemming",
+      "incorrect_answers": ["Marie Curie", "Alfred Nobel", "Louis Pasteur"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many manned moon landings have there been?",
+      "correct_answer": "6",
+      "incorrect_answers": ["1", "3", "7"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The idea of Socialism was articulated and advanced by whom?",
+      "correct_answer": "Karl Marx",
+      "incorrect_answers": ["Vladimir Lenin", "Joseph Stalin", "Vladimir Putin"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": ["1932", "1930", "1925"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+      "correct_answer": "Tog II",
+      "incorrect_answers": ["M4 Sherman", "Tiger H1", "T-34"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+      "correct_answer": "Nagasaki",
+      "incorrect_answers": ["Kawasaki", "Tokyo", "Kagoshima"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following African countries was most successful in resisting colonization?",
+      "correct_answer": "Ethiopia",
+      "incorrect_answers": ["Côte d'Ivoire", "Congo", "Namibia"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+      "correct_answer": "Illyrians",
+      "incorrect_answers": ["Dorians", "Achaeans", "Ionians"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which famous world leader is famed for the saying, 'Let them eat cake', yet is rumored that he/she never said it at all?",
+      "correct_answer": "Marie Antoinette",
+      "incorrect_answers": ["Czar Nicholas II", "Elizabeth I", "Henry VIII"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+      "correct_answer": "X",
+      "incorrect_answers": ["W", "U", "J"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these countries remained neutral during World War II?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": ["United Kingdom", "France", "Italy"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The collapse of the Soviet Union took place in which year?",
+      "correct_answer": "1991",
+      "incorrect_answers": ["1992", "1891", "1990"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was Manfred von Richthofen's nickname?",
+      "correct_answer": "The Red Baron",
+      "incorrect_answers": [
+        "The High Flying Ace",
+        "The Blue Serpent ",
+        "The Germany Gunner"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": ["Syria", "Greece", "Egypt"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+      "correct_answer": "1990",
+      "incorrect_answers": ["1992", "1988", "1986"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the first president of the United States?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "James Madison",
+        "Thomas Jefferson",
+        "James K. Polk"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 1720, England was in massive debt, and became in involved in the South Sea Bubble. Who was the main mastermind behind it?",
+      "correct_answer": "John Blunt",
+      "incorrect_answers": ["Daniel Defoe", "Robert Harley", "John Churchill"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When was Google founded?",
+      "correct_answer": "September 4, 1998",
+      "incorrect_answers": [
+        "October 9, 1997",
+        "December 12, 1989",
+        "Feburary 7th, 2000"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+      "correct_answer": "Hideki Tojo",
+      "incorrect_answers": [
+        "Michinomiya Hirohito",
+        "Isoroku Yamamoto",
+        "Fumimaro Konoe"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first sport to have been played on the moon?",
+      "correct_answer": "Golf",
+      "incorrect_answers": ["Football", "Tennis", "Soccer"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the first prime minister of Canada?",
+      "correct_answer": "John Macdonald",
+      "incorrect_answers": [
+        "John Abbott",
+        "Alexander Mackenzie",
+        "Robert Borden"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How was Socrates executed?",
+      "correct_answer": "Poison",
+      "incorrect_answers": ["Decapitation", "Firing squad", "Crucifixion "]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How long did World War II last?",
+      "correct_answer": "6 years",
+      "incorrect_answers": ["4 years", "5 years", "7 years"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following countries was not an axis power during World War II?",
+      "correct_answer": " Soviet Union",
+      "incorrect_answers": ["Italy", "Germany", "Japan"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+      "correct_answer": "Poland",
+      "incorrect_answers": ["Czechoslovakia", "Austria", "Hungary"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The 'Trail of Tears' was a result of which United States President's Indian Removal Policy?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Martin Van Buren",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+      "correct_answer": "The Polish President",
+      "incorrect_answers": ["Pope John Paul II", "Bang-Ding Ow", "Albert Putin"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+      "correct_answer": "Republican",
+      "incorrect_answers": ["Democrat", "Independent", "Whig"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "These two countries held a commonwealth from the 16th to 18th century.",
+      "correct_answer": "Poland and Lithuania",
+      "incorrect_answers": [
+        "Hutu and Rwanda",
+        "North Korea and South Korea",
+        "Bangladesh and Bhutan"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year did World War I begin?",
+      "correct_answer": "1914",
+      "incorrect_answers": ["1905", "1919", "1925"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How old was Adolf Hitler when he died?",
+      "correct_answer": "56",
+      "incorrect_answers": ["43", "65", "47"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country was Josef Stalin born in?",
+      "correct_answer": "Georgia",
+      "incorrect_answers": ["Russia", "Germany", "Poland"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who led the Communist Revolution of Russia?",
+      "correct_answer": "Vladimir Lenin",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "Vladimir Putin",
+        "Mikhail Gorbachev"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following was Brazil was a former colony under?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": ["Spain", "The Netherlands", "France"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the historical name of Sri Lanka?",
+      "correct_answer": "Ceylon",
+      "incorrect_answers": ["Myanmar", "Colombo", "Badulla"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 1453, which important city fell?",
+      "correct_answer": "Constantinople",
+      "incorrect_answers": ["Rome", "Hamburg", "Athens"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+      "correct_answer": "Silk Road",
+      "incorrect_answers": ["Spice Road", "Clay Road", "Salt Road"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "On what street did the 1666 Great Fire of London start?",
+      "correct_answer": "Pudding Lane",
+      "incorrect_answers": [
+        "Baker Street",
+        "Houses of Parliament",
+        "St Paul's Cathedral"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year was the M1911 pistol designed?",
+      "correct_answer": "1911",
+      "incorrect_answers": ["1907", "1899", "1917"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+      "correct_answer": "1721",
+      "incorrect_answers": ["1726", "1727", "1724"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does the United States of America celebrate during the 4th of July?",
+      "correct_answer": "The signing of the Declaration of Independence",
+      "incorrect_answers": [
+        "The anniversary of the Battle of Gettysburg",
+        "The crossing of the Delaware River",
+        "The ratification of the Constitution"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": ["Thomas Paine", "Henry Longfellow", "Nathan Hale"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+      "correct_answer": "Harper's Ferry",
+      "incorrect_answers": ["Richmond", "Harrisonburg", "Martinsburg"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Ottoman Empire was dissolved after their loss in which war?",
+      "correct_answer": "World War I",
+      "incorrect_answers": [
+        "Crimean War",
+        "Serbian Revolution",
+        "Second Balkan War"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+      "correct_answer": "Hannibal",
+      "incorrect_answers": ["Garmanicus", "Alexander the Great", "Tiberius"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the first American in space?",
+      "correct_answer": "Alan Shephard",
+      "incorrect_answers": ["Neil Armstrong", "John Glenn", "Jim Lovell"]
+    }
+  ]
+}
