@@ -176,9 +176,14 @@ let questions = [
     category: "Engineering",
     type: "multiple",
     difficulty: "medium",
-    question: "Qual foi a primeira linguagem de programação criada?",
-    answer: "Fortran",
-    options: ["Assembly", "COBOL", "Fortran", "Ada"],
+    question: "O que é uma variável em programação?",
+    answer: "Um tipo de erro no código",
+    options: [
+      "Um software de segurança",
+      "Um tipo de erro no código",
+      "Um espaço de armazenamento para dados que pode mudar",
+      "Um comando que executa uma função",
+    ],
   },
   {
     numb: 11,
