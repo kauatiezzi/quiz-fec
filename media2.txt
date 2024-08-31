@@ -1,0 +1,34 @@
+O que são redes neurais artificiais?
+
+a) Modelos computacionais inspirados no cérebro humano
+b) Redes de computadores em escolas
+c) Algoritmos de pesquisa na internet
+d) Sistemas de controle de tráfego
+
+Qual linguagem de programação é amplamente usada em robótica?
+
+a) Python
+b) Francês
+c) HTML
+d) SQL
+
+Como a Engenharia de Computação contribui para o desenvolvimento de sistemas de inteligência artificial?
+
+a) Projetando hardware especializado, como GPUs, e otimizando algoritmos de aprendizado de máquina
+b) Desenvolvendo novos idiomas de programação
+c) Criando modelos econômicos para empresas de tecnologia
+d) Projetando interfaces gráficas de usuário
+
+Qual a principal característica do sistema operacional Linux?
+
+a) Código aberto
+b) Proprietário
+c) Monopolista
+d) Comercial
+
+Qual é a função do cache na CPU?
+
+a) Acelerar o acesso aos dados
+b) Armazenar programas
+c) Gerenciar energia
+d) Controlar a rede

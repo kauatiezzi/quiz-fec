@@ -1,0 +1,36 @@
+1- O que é um compilador?
+
+a) Tradutor de código
+b) Editor de texto
+c) Gerenciador de memória
+d) Emulador de sistemas
+
+2- Qual a principal característica do sistema operacional Linux?
+
+a) Código aberto
+b) Proprietário
+c) Monopolista
+d) Comercial
+
+3 - Qual é a função do cache na CPU?
+
+a) Acelerar o acesso aos dados
+b) Armazenar programas
+c) Gerenciar energia
+d) Controlar a rede
+
+4 - Qual é a principal função de uma placa de rede?
+
+a) Conectar o computador à internet
+b) Armazenar dados
+c) Gerar gráficos
+d) Processar dados
+
+5 - Qual é a principal função de uma rede neural artificial?
+
+a) Reconhecer padrões
+b) Armazenar dados
+c) Gerenciar sistemas operacionais
+d) Proteger redes
+
+6 - 

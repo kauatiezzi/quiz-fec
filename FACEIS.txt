@@ -1,0 +1,60 @@
+O que é um bit?
+
+a) Unidade de dado
+b) Comando
+c) Programa
+d) Processador
+Qual é a função da memória RAM?
+
+a) Armazenar dados temporários
+b) Processar dados
+c) Armazenar dados permanentes
+d) Conectar dispositivos
+O que significa CPU?
+
+a) Unidade Central de Processamento
+b) Unidade de Memória
+c) Unidade Gráfica
+d) Unidade de Armazenamento
+Qual linguagem é usada para criar páginas web?
+
+a) HTML
+b) C++
+c) Java
+d) Python
+Qual é a base do sistema binário?
+
+a) Base 2
+b) Base 10
+c) Base 8
+d) Base 16
+Qual componente armazena dados permanentemente?
+
+a) HD
+b) RAM
+c) CPU
+d) Placa-mãe
+O que é software?
+
+a) Programa de computador
+b) Hardware de rede
+c) Componente físico
+d) Memória de armazenamento
+O que é um algoritmo?
+
+a) Sequência de instruções
+b) Linguagem de programação
+c) Comando de hardware
+d) Unidade de processamento
+Qual é a principal função da placa-mãe?
+
+a) Conectar todos os componentes
+b) Armazenar dados
+c) Processar gráficos
+d) Fornecer energia
+Qual dispositivo é usado para saída de vídeo?
+
+a) Monitor
+b) Teclado
+c) Mouse
+d) Impressora

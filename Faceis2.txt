@@ -1,0 +1,56 @@
+Qual é a principal função de um engenheiro de computação?
+
+a) Projetar sistemas de hardware e software
+b) Consertar computadores
+c) Desenvolver aplicativos móveis
+d) Vender equipamentos de TI
+
+Qual tecnologia emergente está revolucionando a automação industrial?
+
+a) Inteligência Artificial
+b) Televisão 3D
+c) Rádio AM
+d) Impressão de CDs
+
+Qual dos seguintes é um exemplo de automação residencial?
+
+a) Assistente de voz controlando luzes
+b) Jogar videogame
+c) Lavar a louça manualmente
+d) Fazer compras online
+
+Qual inovação da engenharia de computação está presente nos carros autônomos?
+
+a) Sensores e IA
+b) Motores a gasolina
+c) Volante tradicional
+d) Pneus de borracha
+
+O que diferencia um engenheiro de computação de um cientista da computação?
+
+a) Foco em hardware e software
+b) Trabalho exclusivamente com matemática
+c) Desenvolvimento de jogos
+d) Operação de máquinas pesadas
+
+Qual é a base do sistema binário?
+
+a) Base 2
+b) Base 10
+c) Base 8
+d) Base 16
+
+Qual linguagem é usada para criar páginas web?
+
+a) HTML
+b) C++
+c) Java
+d) Python
+
+O que é um bit?
+
+a) Unidade de dado
+b) Comando
+c) Programa
+d) Processador
+

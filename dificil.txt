@@ -1,0 +1,35 @@
+Qual é a função de um compilador em programação?
+
+a) Converter código-fonte em código executável
+b) Testar a segurança do software
+c) Gerar relatórios de desempenho
+d) Editar imagens
+
+O que significa a sigla "HTTP" na web?
+
+a) Protocolo de Transferência de Hipertexto
+b) Linguagem de Programação para Web
+c) Banco de Dados Relacional
+d) Software de Segurança para Internet
+
+O que é um sistema embarcado?
+
+a) Computador integrado em dispositivos para realizar funções específicas
+b) Software que controla servidores de internet
+c) Dispositivo que gerencia redes sem fio
+d) Programa que simula sistemas operacionais
+
+O que significa a sigla "API" e qual é sua função principal?
+
+a) Interface de Programação de Aplicações, permite a comunicação entre diferentes softwares
+b) Protocolo de Acesso à Internet, melhora a velocidade de navegação
+c) Arquivo de Programação de Interface, utilizado para criar gráficos
+d) Ambiente de Processamento Interativo, usado para simulações
+
+O que é a virtualização em ambientes de computação?
+
+a) Técnica que permite rodar múltiplos sistemas operacionais em um único hardware
+b) Processo de aumentar a resolução de imagens
+c) Criação de redes sociais exclusivas para profissionais de TI
+d) Uso de inteligência artificial para simular conversas
+
