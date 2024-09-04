@@ -1,280 +1,313 @@
 var data = [
-  { id: '', type: 'allin', color: '#3f297e', text: 'KIT KAT', probability: 0.01 },
-  { id: '', type: 'quiz', color: '#1d61ac', text: 'BIS', probability: 0.2 },
-  { id: '', type: 'quiz', color: '#169ed8', text: 'PIRULITO', probability: 0.2 },
-  { id: '', type: 'quiz', color: '#209b6c', text: 'BOMBOM', probability: 0.2 },
-  { id: '', color: '#60b236', text: 'BRINDE FEC', probability: 0.1 },
-  { id: '', color: '#efe61f', text: 'NOVA CHANCE', probability: 0.1 },
-  { id: '', color: '#f7a416', text: 'BIS', probability: 0.1 },
-  { id: '', type: 'time', color: '#e6471d', text: 'PIRULITO', probability: 0.1 },
-  { id: '', type: 'question', color: '#dc0936', text: 'BOMBOM', probability: 0.1 },
-  { id: '', color: '#e5177b', text: 'BIS', probability: 0.1 },
-  { id: '', color: '#be107f', text: 'PIRULITO', probability: 0.1 },
-  { id: '', type: 'replay', color: '#881f7e', text: 'BIS', probability: 0.1 }
-];
+  {
+    id: "",
+    type: "allin",
+    color: "#3f297e",
+    text: "BATON",
+    probability: 0.05,
+  },
+  { id: "", type: "quiz", color: "#1d61ac", text: "BIS", probability: 0.2 },
+  {
+    id: "",
+    type: "quiz",
+    color: "#169ed8",
+    text: "GOMINHA",
+    probability: 0.1,
+  },
+  { id: "", type: "quiz", color: "#209b6c", text: "BATON", probability: 0.05 },
+  {
+    id: "",
+    type: "time",
+    color: "#e6471d",
+    text: "2x PIRULITO",
+    probability: 0.1,
+  },
+  {
+    id: "",
+    type: "question",
+    color: "#dc0936",
+    text: "GOMINHA",
+    probability: 0.1,
+  },
+  { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
+  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.2 },
+  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.2 },
+]
 
-var RouletteWheel = function(el, items) {
-  this.$el = $(el);
-  this.items = items || [];
-  this._bis = false;
-  this._angle = 0;
-  this._index = 0;
+var RouletteWheel = function (el, items) {
+  this.$el = $(el)
+  this.items = items || []
+  this._bis = false
+  this._angle = 0
+  this._index = 0
   this.options = {
-    angleOffset: -90
-  };
-};
+    angleOffset: -90,
+  }
+}
 
-_.extend(RouletteWheel.prototype, Backbone.Events);
+_.extend(RouletteWheel.prototype, Backbone.Events)
 
-RouletteWheel.prototype.spin = function() {
-  var totalProbability = this.items.reduce(function(sum, item) {
-    return sum + item.probability;
-  }, 0);
+RouletteWheel.prototype.spin = function () {
+  var totalProbability = this.items.reduce(function (sum, item) {
+    return sum + item.probability
+  }, 0)
 
-  var randomValue = Math.random() * totalProbability;
-  var accumulatedProbability = 0;
-  var selectedItem;
+  var randomValue = Math.random() * totalProbability
+  var accumulatedProbability = 0
+  var selectedItem
 
   for (var i = 0; i < this.items.length; i++) {
-    accumulatedProbability += this.items[i].probability;
+    accumulatedProbability += this.items[i].probability
     if (randomValue <= accumulatedProbability) {
-      selectedItem = this.items[i];
-      break;
+      selectedItem = this.items[i]
+      break
     }
   }
 
-  var index = this.items.indexOf(selectedItem);
-  var count = this.items.length;
-  var delta = 360 / count;
-  var a = index * delta + ((this._bis) ? 1440 : -1440);
+  var index = this.items.indexOf(selectedItem)
+  var count = this.items.length
+  var delta = 360 / count
+  var a = index * delta + (this._bis ? 1440 : -1440)
 
-  this._bis = !this._bis;
-  this._angle = a;
-  this._index = index;
+  this._bis = !this._bis
+  this._angle = a
+  this._index = index
 
-  var $spinner = this.$el.find('.spinner');
+  var $spinner = this.$el.find(".spinner")
 
-  $spinner
-    .velocity('stop')
-    .velocity({
-      rotateZ: a + 'deg'
-    }, {
-      easing: 'easeOutQuint',
+  $spinner.velocity("stop").velocity(
+    {
+      rotateZ: a + "deg",
+    },
+    {
+      easing: "easeOutQuint",
       duration: 5000,
       begin: () => {
-        this.$el.addClass('busy');
-        this.trigger('spin:start', this);
+        this.$el.addClass("busy")
+        this.trigger("spin:start", this)
       },
       complete: () => {
-        this.$el.removeClass('busy');
-        this.trigger('spin:end', this);
-      }
-    });
-};
+        this.$el.removeClass("busy")
+        this.trigger("spin:end", this)
+      },
+    }
+  )
+}
 
-RouletteWheel.prototype.render = function() {
-  var $spinner = this.$el.find('.spinner');
-  var D = this.$el.width();
-  var R = D * 0.5;
+RouletteWheel.prototype.render = function () {
+  var $spinner = this.$el.find(".spinner")
+  var D = this.$el.width()
+  var R = D * 0.5
 
-  var count = this.items.length;
-  var delta = 360 / count;
+  var count = this.items.length // Atualize o número de itens
+  var delta = 360 / count // Recalcule o ângulo para cada item
 
   for (var i = 0; i < count; i++) {
-    var item = this.items[i];
-    var color = item.color;
-    var text = item.text;
-    var ikon = item.ikon;
+    var item = this.items[i]
+    var color = item.color
+    var text = item.text
+    var ikon = item.ikon
 
-    var html = [];
-    html.push('<div class="item" ');
-    html.push('data-index="' + i + '" ');
-    html.push('data-type="' + item.type + '" ');
-    html.push('>');
-    html.push('<span class="label">');
-    if (ikon) html.push('<i class="material-icons">' + ikon + '</i>');
-    html.push('<span class="text">' + text + '</span>');
-    html.push('</span>');
-    html.push('</div>');
+    var html = []
+    html.push('<div class="item" ')
+    html.push('data-index="' + i + '" ')
+    html.push('data-type="' + item.type + '" ')
+    html.push(">")
+    html.push('<span class="label">')
+    if (ikon) html.push('<i class="material-icons">' + ikon + "</i>")
+    html.push('<span class="text">' + text + "</span>")
+    html.push("</span>")
+    html.push("</div>")
 
-    var $item = $(html.join(''));
-    var borderTopWidth = D + D * 0.0025;
-    var deltaInRadians = delta * Math.PI / 180;
-    var borderRightWidth = D / (1 / Math.tan(deltaInRadians));
-    var r = delta * (count - i) + this.options.angleOffset - delta * 0.5;
+    var $item = $(html.join(""))
+    var borderTopWidth = D + D * 0.0025
+    var deltaInRadians = (delta * Math.PI) / 180
+    var borderRightWidth = D / (1 / Math.tan(deltaInRadians))
+    var r = delta * (count - i) + this.options.angleOffset - delta * 0.5
 
     $item.css({
       borderTopWidth: borderTopWidth,
       borderRightWidth: borderRightWidth,
-      transform: 'scale(2) rotate(' + r + 'deg)',
-      borderTopColor: color
-    });
+      transform: "scale(2) rotate(" + r + "deg)",
+      borderTopColor: color,
+    })
 
-    var textHeight = parseInt(((2 * Math.PI * R) / count) * 0.5);
+    var textHeight = parseInt(((2 * Math.PI * R) / count) * 0.5)
 
-    $item.find('.label').css({
-      transform: 'translateY(' + (D * -0.25) + 'px) translateX(' + (textHeight * 1.03) + 'px) rotateZ(' + (90 + delta * 0.5) + 'deg)',
-      height: textHeight + 'px',
-      lineHeight: textHeight + 'px',
-      textIndent: (R * 0.1) + 'px'
-    });
+    $item.find(".label").css({
+      transform:
+        "translateY(" +
+        D * -0.25 +
+        "px) translateX(" +
+        textHeight * 1.03 +
+        "px) rotateZ(" +
+        (90 + delta * 0.5) +
+        "deg)",
+      height: textHeight * 0.8 + "px", // Reduza a altura do texto
+      lineHeight: textHeight * 0.8 + "px", // Reduza o lineHeight
+      textIndent: R * 0.1 + "px",
+    })
 
-    $spinner.append($item);
+    $spinner.append($item)
   }
 
   $spinner.css({
-    fontSize: parseInt(R * 0.06) + 'px'
-  });
-};
+    fontSize: parseInt(R * 0.06) + "px",
+  })
+}
 
-RouletteWheel.prototype.bindEvents = function() {
-  this.$el.find('.button').on('click', () => this.spin());
-};
+RouletteWheel.prototype.bindEvents = function () {
+  this.$el.find(".button").on("click", () => this.spin())
+}
 
-var spinner;
-$(window).on('load', function() {
-  spinner = new RouletteWheel($('.roulette'), data);
-  spinner.render();
-  spinner.bindEvents();
+var spinner
+$(window).on("load", function () {
+  spinner = new RouletteWheel($(".roulette"), data)
+  spinner.render()
+  spinner.bindEvents()
 
-  spinner.on('spin:start', function(r) { console.log('spin start!'); });
-  spinner.on('spin:end', function(r) { 
-    console.log('spin end! -->' + r._index);
-  });
-});
+  spinner.on("spin:start", function (r) {
+    console.log("spin start!")
+  })
+  spinner.on("spin:end", function (r) {
+    console.log("spin end! -->" + r._index)
+  })
+})
 
-RouletteWheel.prototype.showPrize = function(prize) {
-  var modal = document.getElementById("prizeModal");
-  var span = document.getElementsByClassName("close")[0];
-  var prizeText = document.getElementById("prizeText");
+RouletteWheel.prototype.showPrize = function (prize) {
+  var modal = document.getElementById("prizeModal")
+  var span = document.getElementsByClassName("close")[0]
+  var prizeText = document.getElementById("prizeText")
 
-  prizeText.innerText = "Você ganhou: " + prize;
+  prizeText.innerText = "Você ganhou: " + prize
 
-  modal.style.display = "block";
+  modal.style.display = "block"
 
-  span.onclick = function() {
-    modal.style.display = "none";
-  };
+  span.onclick = function () {
+    modal.style.display = "none"
+  }
 
-  window.onclick = function(event) {
+  window.onclick = function (event) {
     if (event.target == modal) {
-      modal.style.display = "none";
+      modal.style.display = "none"
     }
-  };
-};
+  }
+}
 
 // Atualize a função que lida com o final do giro para exibir o modal
-RouletteWheel.prototype.spin = function() {
-  var totalProbability = this.items.reduce(function(sum, item) {
-    return sum + item.probability;
-  }, 0);
+RouletteWheel.prototype.spin = function () {
+  var totalProbability = this.items.reduce(function (sum, item) {
+    return sum + item.probability
+  }, 0)
 
-  var randomValue = Math.random() * totalProbability;
-  var accumulatedProbability = 0;
-  var selectedItem;
+  var randomValue = Math.random() * totalProbability
+  var accumulatedProbability = 0
+  var selectedItem
 
   for (var i = 0; i < this.items.length; i++) {
-    accumulatedProbability += this.items[i].probability;
+    accumulatedProbability += this.items[i].probability
     if (randomValue <= accumulatedProbability) {
-      selectedItem = this.items[i];
-      break;
+      selectedItem = this.items[i]
+      break
     }
   }
 
-  var index = this.items.indexOf(selectedItem);
-  var count = this.items.length;
-  var delta = 360 / count;
-  var a = index * delta + ((this._bis) ? 1440 : -1440);
+  var index = this.items.indexOf(selectedItem)
+  var count = this.items.length
+  var delta = 360 / count
+  var a = index * delta + (this._bis ? 1440 : -1440)
 
-  this._bis = !this._bis;
-  this._angle = a;
-  this._index = index;
+  this._bis = !this._bis
+  this._angle = a
+  this._index = index
 
-  var $spinner = this.$el.find('.spinner');
+  var $spinner = this.$el.find(".spinner")
 
-  $spinner
-    .velocity('stop')
-    .velocity({
-      rotateZ: a + 'deg'
-    }, {
-      easing: 'easeOutQuint',
+  $spinner.velocity("stop").velocity(
+    {
+      rotateZ: a + "deg",
+    },
+    {
+      easing: "easeOutQuint",
       duration: 5000,
       begin: () => {
-        this.$el.addClass('busy');
-        this.trigger('spin:start', this);
+        this.$el.addClass("busy")
+        this.trigger("spin:start", this)
       },
       complete: () => {
-        this.$el.removeClass('busy');
-        this.trigger('spin:end', this);
-        this.showPrize(selectedItem.text); // Exibir o prêmio
-      }
-    });
-};
-
-RouletteWheel.prototype.showPrize = function(prize) {
-  var modal = document.getElementById("prizeModal");
-  var span = document.getElementsByClassName("close")[0];
-  var prizeText = document.getElementById("prizeText");
-
-  prizeText.innerText = "Seu prêmio é um(a): " + prize;
-
-  modal.style.display = "block";
-
-  span.onclick = function() {
-    modal.style.display = "none";
-  };
-
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
+        this.$el.removeClass("busy")
+        this.trigger("spin:end", this)
+        this.showPrize(selectedItem.text) // Exibir o prêmio
+      },
     }
-  };
-};
+  )
+}
+
+RouletteWheel.prototype.showPrize = function (prize) {
+  var modal = document.getElementById("prizeModal")
+  var span = document.getElementsByClassName("close")[0]
+  var prizeText = document.getElementById("prizeText")
+
+  prizeText.innerText = "Seu prêmio é um(a): " + prize
+
+  modal.style.display = "block"
+
+  span.onclick = function () {
+    modal.style.display = "none"
+  }
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none"
+    }
+  }
+}
 
 // Atualize a função que lida com o final do giro para exibir o modal
-RouletteWheel.prototype.spin = function() {
-  var totalProbability = this.items.reduce(function(sum, item) {
-    return sum + item.probability;
-  }, 0);
+RouletteWheel.prototype.spin = function () {
+  var totalProbability = this.items.reduce(function (sum, item) {
+    return sum + item.probability
+  }, 0)
 
-  var randomValue = Math.random() * totalProbability;
-  var accumulatedProbability = 0;
-  var selectedItem;
+  var randomValue = Math.random() * totalProbability
+  var accumulatedProbability = 0
+  var selectedItem
 
   for (var i = 0; i < this.items.length; i++) {
-    accumulatedProbability += this.items[i].probability;
+    accumulatedProbability += this.items[i].probability
     if (randomValue <= accumulatedProbability) {
-      selectedItem = this.items[i];
-      break;
+      selectedItem = this.items[i]
+      break
     }
   }
 
-  var index = this.items.indexOf(selectedItem);
-  var count = this.items.length;
-  var delta = 360 / count;
-  var a = index * delta + ((this._bis) ? 1440 : -1440);
+  var index = this.items.indexOf(selectedItem)
+  var count = this.items.length
+  var delta = 360 / count
+  var a = index * delta + (this._bis ? 1440 : -1440)
 
-  this._bis = !this._bis;
-  this._angle = a;
-  this._index = index;
+  this._bis = !this._bis
+  this._angle = a
+  this._index = index
 
-  var $spinner = this.$el.find('.spinner');
+  var $spinner = this.$el.find(".spinner")
 
-  $spinner
-    .velocity('stop')
-    .velocity({
-      rotateZ: a + 'deg'
-    }, {
-      easing: 'easeOutQuint',
+  $spinner.velocity("stop").velocity(
+    {
+      rotateZ: a + "deg",
+    },
+    {
+      easing: "easeOutQuint",
       duration: 5000,
       begin: () => {
-        this.$el.addClass('busy');
-        this.trigger('spin:start', this);
+        this.$el.addClass("busy")
+        this.trigger("spin:start", this)
       },
       complete: () => {
-        this.$el.removeClass('busy');
-        this.trigger('spin:end', this);
-        this.showPrize(selectedItem.text); // Exibir o prêmio
-      }
-    });
-};
+        this.$el.removeClass("busy")
+        this.trigger("spin:end", this)
+        this.showPrize(selectedItem.text) // Exibir o prêmio
+      },
+    }
+  )
+}
