@@ -1,9 +1,17 @@
-:root {
-  background-image: url("./public/background.svg");
+body {
+  overflow: hidden;
+  background-image: url("./public/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 62.5%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  );
 }
+
 
 .roleta_roll {
   text-decoration: none;
