@@ -177,7 +177,7 @@ let questions = [
     type: "multiple",
     difficulty: "medium",
     question: "O que é uma variável em programação?",
-    answer: "Um tipo de erro no código",
+    answer: "Um espaço de armazenamento para dados que pode mudar",
     options: [
       "Um software de segurança",
       "Um tipo de erro no código",

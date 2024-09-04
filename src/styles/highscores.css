@@ -1,89 +1,89 @@
 /* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
-    font-family: Poppins, Helvetica, sans-serif;
+  font-family: Poppins, Helvetica, sans-serif;
 }
 .container {
-    width: 100vw;
-    max-width: 40rem;
-    height: 100vh;
-    max-height: 40rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0;
-    background:  #fff;
+  width: 100vw;
+  max-width: 40rem;
+  height: 100vh;
+  max-height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
 }
 
-.container>* {
-    width: 100%;
+.container > * {
+  width: 100%;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-center {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    font-size: 3.4rem;
-    color: #463760;
-    margin-bottom: 1.5rem;
-}  
+  font-size: 3.4rem;
+  color: #260562;
+  margin-bottom: 1.5rem;
+}
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
 }
 
 #highScoresList {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 1rem;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
 }
 
 #highscores ul {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .high-score {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    color: #463760;
-    font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #260562;
+  font-weight: 500;
 }
 
 .high-score:hover {
-    transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .container #go_home {
-    font-size: 20px;
-    font-weight: 500;
-    color: #463760;
-    padding: 15px 35px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: #fff;
-    border: 1px solid #463760;
-    cursor: pointer;
-    text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #260562;
+  padding: 15px 35px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #260562;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .container #go_home:hover {
-    color: #fff;
-    background: #463760;
-    transform: scale(1.025);
+  color: #fff;
+  background: #260562;
+  transform: scale(1.025);
 }

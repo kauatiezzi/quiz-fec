@@ -1,11 +1,37 @@
 body {
   overflow: hidden;
-  background-color: #463760;
+  background-image: url("../../public/test2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Ajuste a opacidade conforme necessário */
+  font-size: 62.5%;
 }
 
 .roleta_roll {
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.teste-mg {
+  position: fixed; /* Fixa a logo no topo da página */
+  top: 0; /* Alinha ao topo da página */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Corrige a centralização horizontal */
+  margin-top: 0px; /* Ajuste o espaçamento superior conforme necessário */
+  z-index: 1000; /* Garante que a logo fique acima de outros elementos */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura da tela */
+  text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+.teste-mg img {
+  width: 10%; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 .teste {
@@ -14,6 +40,7 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 40px;
+  margin-top: 150px;
 }
 
 .img-festa {
@@ -25,7 +52,7 @@ body {
 .premio {
   font-family: "Work Sans", sans-serif;
   text-align: center;
-  color: #463760;
+  color: #260562;
   font-weight: bold;
   font-size: 40px;
 }
@@ -33,7 +60,7 @@ body {
 #prizeText {
   font-family: "Work Sans", sans-serif;
   text-align: center;
-  color: #463760;
+  color: #260562;
   font-weight: bold;
   font-size: 20px;
 }
@@ -77,7 +104,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 1em 0 1em 1em;
-  border-color: transparent transparent transparent #007bff;
+  border-color: transparent transparent transparent #463760;
   position: absolute;
   border-left-color: #fff;
   top: 50%;

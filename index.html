@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-    <link rel="manifest" href="./public/manifest.json">
-    <link rel="shortcut icon" href="./public/favicon.ico">
+    <link rel="manifest" href="./public/manifest.json" />
+    <link rel="shortcut icon" href="./public/favicon.ico" />
     <title>Quiz Programação - FEC</title>
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link
@@ -13,14 +13,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
   </head>
+
   <body id="page-home">
-    <div id="loader"></div>
-    <!-- start Quiz button -->
-    <div class="start_btn">
-      <button class="btn" id="button_play">Jogar o Quiz</button>
-      <a class="btn" id="button_score" href="./src/pages/highscores.html"
-        >Maiores Pontuações</a
-      >
+    <div class="teste-mg">
+      <img src="./public/logoof.png" alt="" />
+    </div>
+    <div class="rt">
+      <div id="loader"></div>
+      <!-- start Quiz button -->
+      <div class="start_btn">
+        <button class="btn" id="button_play">Jogar o Quiz</button>
+        <a class="btn" id="button_score" href="./src/pages/highscores.html"
+          >Maiores Pontuações</a
+        >
+      </div>
     </div>
 
     <!-- Info Box -->
@@ -70,7 +76,9 @@
           <!-- Here I've inserted Question Count Number from JavaScript -->
         </div>
         <div id="hud-item">
-          <p class="hud-prefix">Pontuação <span class="hud-main-text" id="score">0</span></p>
+          <p class="hud-prefix">
+            Pontuação <span class="hud-main-text" id="score">0</span>
+          </p>
         </div>
         <button class="next_btn">Próxima Questão</button>
       </footer>
@@ -89,7 +97,12 @@
         <button class="quit">Sair do Quiz</button>
       </div>
       <div class="buttons2">
-        <button onclick="window.open('roleta.html', '_blank');" class="roleta_roll">Rodar a roleta</button>
+        <button
+          onclick="window.open('roleta.html', '_blank');"
+          class="roleta_roll"
+        >
+          Rodar a roleta
+        </button>
       </div>
     </div>
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
