@@ -1,6 +1,6 @@
 body {
   overflow: hidden;
-  background-image: url("../../public/fundo.png");
+  background-image: url("../../public/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -8,7 +8,7 @@ body {
     0,
     0,
     0,
-    0.8
+    0.4
   ); /* Ajuste a opacidade conforme necessário */
   font-size: 62.5%;
 }
