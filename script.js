@@ -4,9 +4,9 @@ var data = [
     type: "allin",
     color: "#3f297e",
     text: "BATON",
-    probability: 0.05,
+    probability: 0.08,
   },
-  { id: "", type: "quiz", color: "#1d61ac", text: "BIS", probability: 0.2 },
+  { id: "", type: "quiz", color: "#1d61ac", text: "BIS", probability: 0.1 },
   {
     id: "",
     type: "quiz",
@@ -14,13 +14,13 @@ var data = [
     text: "GOMINHA",
     probability: 0.1,
   },
-  { id: "", type: "quiz", color: "#209b6c", text: "BATON", probability: 0.05 },
+  { id: "", type: "quiz", color: "#209b6c", text: "BATON", probability: 0.08 },
   {
     id: "",
     type: "time",
     color: "#e6471d",
     text: "2x PIRULITO",
-    probability: 0.1,
+    probability: 0.2,
   },
   {
     id: "",
@@ -30,8 +30,8 @@ var data = [
     probability: 0.1,
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
-  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.2 },
-  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.2 },
+  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.25 },
+  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.1 },
 ]
 
 var RouletteWheel = function (el, items) {
