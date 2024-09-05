@@ -20,7 +20,7 @@ var data = [
     type: "time",
     color: "#e6471d",
     text: "2x PIRULITO",
-    probability: 0.2,
+    probability: 0.15,
   },
   {
     id: "",
@@ -30,7 +30,8 @@ var data = [
     probability: 0.1,
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
-  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.25 },
+  { id: "", color: "#2EFEC8", text: "4 BALAS", probability: 0.2 },
+  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.2 },
   { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.1 },
 ]
 
