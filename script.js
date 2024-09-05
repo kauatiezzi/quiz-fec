@@ -4,7 +4,7 @@ var data = [
     type: "allin",
     color: "#3f297e",
     text: "BATON",
-    probability: 0.08,
+    probability: 0.05,
   },
   { id: "", type: "quiz", color: "#1d61ac", text: "BIS", probability: 0.1 },
   {
@@ -14,7 +14,7 @@ var data = [
     text: "GOMINHA",
     probability: 0.1,
   },
-  { id: "", type: "quiz", color: "#209b6c", text: "BATON", probability: 0.08 },
+  { id: "", type: "quiz", color: "#209b6c", text: "BATON", probability: 0.05 },
   {
     id: "",
     type: "time",
@@ -27,7 +27,7 @@ var data = [
     type: "question",
     color: "#dc0936",
     text: "GOMINHA",
-    probability: 0.1,
+    probability: 0.08,
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
   { id: "", color: "#2EFEC8", text: "4 BALAS", probability: 0.22 },
