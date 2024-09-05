@@ -6,14 +6,15 @@ var data = [
     text: "BATON",
     probability: 0.00,
   },
-  { id: "", type: "quiz", color: "#1d61ac", text: "BIS", probability: 0.15 },
+  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.05 },
   {
     id: "",
     type: "quiz",
     color: "#169ed8",
     text: "GOMINHA",
-    probability: 0.02,
+    probability: 0.00,
   },
+  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.2 },
   {
     id: "",
     type: "time",
@@ -26,12 +27,14 @@ var data = [
     type: "question",
     color: "#dc0936",
     text: "GOMINHA",
-    probability: 0.02,
+    probability: 0.00,
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
   { id: "", color: "#2EFEC8", text: "4 BALAS", probability: 0.1 },
   { id: "", color: "#be107f", text: "PIRULITO", probability: 0.25 },
   { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.2 },
+  { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.1 },
+
 ]
 
 var RouletteWheel = function (el, items) {
