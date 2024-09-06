@@ -4,9 +4,9 @@ var data = [
     type: "allin",
     color: "#3f297e",
     text: "BATON",
-    probability: 0.1,
+    probability: 0.0,
   },
-  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.2 },
+  { id: "", type: "moranguete", color: "#646464", text: "MORANGUETE", probability: 0.2 },
   {
     id: "",
     type: "quiz",
