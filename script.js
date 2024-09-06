@@ -2,11 +2,11 @@ var data = [
   {
     id: "",
     type: "allin",
-    color: "#3f297e",
+    color: "#646464",
     text: "BATON",
     probability: 0.0,
   },
-  { id: "", type: "moranguete", color: "#646464", text: "MORANGUETE", probability: 0.2 },
+  { id: "", type: "moranguete", color: "#3f297e", text: "MORANGUETE", probability: 0.2 },
   {
     id: "",
     type: "quiz",
