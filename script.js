@@ -31,7 +31,7 @@ var data = [
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
   { id: "", color: "#646464", text: "2 BALAS", probability: 0.00 },
-  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.00 },
+  { id: "", color: "#646464", text: "PIRULITO", probability: 0.00 },
   { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.1 },
   { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.13 },
 
