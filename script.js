@@ -10,7 +10,7 @@ var data = [
   {
     id: "",
     type: "quiz",
-    color: "9d9d9d",
+    color: "#9d9d9d",
     text: "GOMINHA",
     probability: 0.00,
   },
