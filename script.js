@@ -6,7 +6,7 @@ var data = [
     text: "BATON",
     probability: 0.001,
   },
-  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.1 },
+  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.14 },
   {
     id: "",
     type: "quiz",
