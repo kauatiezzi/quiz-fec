@@ -4,7 +4,7 @@ var data = [
     type: "allin",
     color: "#3f297e",
     text: "BATON",
-    probability: 0.01,
+    probability: 0.001,
   },
   { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.1 },
   {
@@ -14,7 +14,7 @@ var data = [
     text: "GOMINHA",
     probability: 0.00,
   },
-  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.17 },
+  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.0 },
   {
     id: "",
     type: "time",
@@ -30,7 +30,7 @@ var data = [
     probability: 0.03,
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
-  { id: "", color: "#2EFEC8", text: "4 BALAS", probability: 0.1 },
+  { id: "", color: "#2EFEC8", text: "2 BALAS", probability: 0.05 },
   { id: "", color: "#be107f", text: "PIRULITO", probability: 0.15 },
   { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.1 },
   { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.13 },
