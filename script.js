@@ -4,9 +4,9 @@ var data = [
     type: "allin",
     color: "#3f297e",
     text: "BATON",
-    probability: 0.009,
+    probability: 0.1,
   },
-  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.14 },
+  { id: "", type: "moranguete", color: "#ff79fb", text: "MORANGUETE", probability: 0.2 },
   {
     id: "",
     type: "quiz",
@@ -33,7 +33,7 @@ var data = [
   { id: "", color: "#646464", text: "2 BALAS", probability: 0.00 },
   { id: "", color: "#646464", text: "PIRULITO", probability: 0.00 },
   { id: "", type: "replay", color: "#646464", text: "BIS", probability: 0.0 },
-  { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.13 },
+  { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.2 },
 
 ]
 
