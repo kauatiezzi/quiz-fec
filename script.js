@@ -14,7 +14,7 @@ var data = [
     text: "GOMINHA",
     probability: 0.00,
   },
-  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.0 },
+  { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.01 },
   {
     id: "",
     type: "time",
