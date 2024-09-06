@@ -20,7 +20,7 @@ var data = [
     type: "time",
     color: "#e6471d",
     text: "PIRULITO",
-    probability: 0.1,
+    probability: 0.002,
   },
   {
     id: "",
@@ -31,7 +31,7 @@ var data = [
   },
   { id: "", color: "#e5177b", text: "NOVA CHANCE", probability: 0.1 },
   { id: "", color: "#2EFEC8", text: "2 BALAS", probability: 0.05 },
-  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.15 },
+  { id: "", color: "#be107f", text: "PIRULITO", probability: 0.002 },
   { id: "", type: "replay", color: "#881f7e", text: "BIS", probability: 0.1 },
   { id: "", type: "replay", color: "#ffa51b", text: "PAÇOCA", probability: 0.13 },
 
